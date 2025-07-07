@@ -5,7 +5,7 @@
   let nuevoCurso = { curso: '', creditos: 0, horasSemanal: 0, ciclo: '', nombreDocente: '' };
   let editando = null;
 
-  const API_URL = 'http://localhost:3000/api/cursos';
+  const API_URL = 'https://cursos-backend.onrender.com/api/cursos';
 
   async function cargarCursos() {
     const res = await fetch(API_URL);
